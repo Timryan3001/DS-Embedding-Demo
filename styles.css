@@ -1,0 +1,76 @@
+/* Resetting some browser defaults */
+body,
+h1,
+h2,
+button,
+input {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f2f8fa;
+    padding: 30px;
+}
+
+h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #2a475e;
+}
+
+h2 {
+    font-size: 1.5em;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: #2a475e;
+}
+
+button {
+    background-color: #74b1c8;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 10px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #598a9f;
+}
+
+input[type="number"] {
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #b4d5e0;
+    margin-right: 10px;
+    color: #2a475e;
+}
+
+input[type="number"]::placeholder {
+    color: #91c2d3;
+}
+
+hr {
+    margin: 20px 0;
+    border: 0;
+    border-top: 1px solid #b4d5e0;
+}
+
+#vizContainer {
+    margin-top: 30px;
+    background-color: #e6f1f6;
+    padding: 20px;
+    border-radius: 4px;
+}
+
+/* Making sure the icons in the headings/buttons stand out */
+h1>span,
+h2>span,
+button>span {
+    margin-left: 5px;
+}
